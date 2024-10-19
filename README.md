@@ -1,6 +1,6 @@
 # SaaS Dashboard
 
-A pixel-perfect SaaS dashboard built using React. The project strictly follows design specifications, ensures responsiveness, and adds meaningful motion and microinteractions for an enhanced user experience.
+A pixel-perfect SaaS dashboard built using React. The project strictly follows design specifications,and adds meaningful motion and microinteractions for an enhanced user experience.
 
 ## 🌟 Features
 
