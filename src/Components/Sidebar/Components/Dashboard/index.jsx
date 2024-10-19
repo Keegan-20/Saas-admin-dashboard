@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ShieldEllipsis, PanelsTopLeft, FolderOpenDot, BookOpenText, ChevronRight, ListOrdered } from 'lucide-react'
+import {ChevronRight, ListOrdered } from 'lucide-react'
 import ss1 from "../../../../assets/Icons/ss1.png"
 import ss2 from "../../../../assets/Icons/ss2.png"
 import ss3 from "../../../../assets/Icons/ss3.png"

@@ -1,10 +1,11 @@
 # SaaS Dashboard
 
-A pixel-perfect SaaS dashboard built using React. The project strictly follows design specifications,and adds meaningful motion and microinteractions for an enhanced user experience.
+A pixel-perfect SaaS dashboard built using React. The project strictly follows design specifications,and adds meaningful motion and microinteractions for an enhanced user experience and made it Responsive.
 
 ## 🌟 Features
 
 - **Pixel-Perfect Implementation**: The UI matches the Figma designs with precise layout, spacing, typography, colors, and alignment.
+- **Responsive Design**: Optimized for various devices including desktop, tablet, and mobile.
 - **Responsive Design**: Optimized for various devices including desktop, tablet, and mobile.
 - **Reusable Components**: Clean and modular code with a focus on reusability.
 - **Smooth Animations**: Added microinteractions and animations for a more engaging user experience using `framer-motion`.
@@ -16,8 +17,6 @@ A pixel-perfect SaaS dashboard built using React. The project strictly follows d
 - **CSS Modules/Tailwind CSS**: For styling.
 - **Framer Motion**: For animations and microinteractions.
 - **State Management**: Using Redux Toolkit for handling application state.
-
-
 
 ## Snapshots
 ####  Default Dashboard layout
