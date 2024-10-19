@@ -2,8 +2,9 @@ import React, { lazy, memo, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { Drawer } from "@material-tailwind/react";
 import { useLocation, useNavigate } from 'react-router-dom';
-import { AlignRight, AppWindow, Bell, Moon, Search, Slack, Star, Sun, TimerReset } from 'lucide-react';
+import { AlignRight, AppWindow, Bell, Moon, Search, Star, Sun, TimerReset } from 'lucide-react';
 import Breadcrumb from './Breadcrumb';
+import searchIcon from "../../../assets/Icons/searchIcon.png"
 import { handleTheme } from '../../../Redux/themeSlice';
 import { image4 } from '../../../assets';
 import Notification from '../../NotificationPanel/Components/Notification';
@@ -130,7 +131,7 @@ const Header = () => {
                             onChange={(e) => updateInput(e)}
                             className='text-[#1C1C1C33] dark:text-[#FFFFFF33] border-none outline-none bg-transparent  w-[100px]  text-xs opacity-[0.6]'
                         />
-                        <Slack size={14} strokeWidth={2} className="text-[#1C1C1C33] dark:text-[#FFFFFF33]" />
+                           <img src={searchIcon} alt="Icon description" />
                     </div>
                     {
                         appTheme ?

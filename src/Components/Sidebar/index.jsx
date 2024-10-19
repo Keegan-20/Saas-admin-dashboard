@@ -5,7 +5,7 @@ const Dashboard = lazy(() => import('./Components/Dashboard'));
 const MenuPage = lazy(() => import('./Components/MenuPage'));
 
 
-const NotificationPanel = () => {
+const Sidebar = () => {
     let tabs = [
         {
             name: 'Favorites',
@@ -30,7 +30,7 @@ const NotificationPanel = () => {
 
     return (
         <ErrorBoundary>
-            <section className='hidden md:col-span-2 py-5 px-4 xl:grid gap-y-4 sticky top-0 animate-fade'>
+            <section className='hidden md:col-span-2  py-5 px-4 xl:grid gap-y-4 sticky top-0 animate-fade'>
                 <figure className='flex items-center'>
                     <img src="https://framerusercontent.com/images/GCFgMvkEdGKHPs31ezbHUFXr1A.png" alt="" className='w-[24px] h-[24px] rounded-full' />
                     <h1 className='text-sm font-normal ps-2 dark:text-[#FFFFFF]'>ByeWind</h1>
@@ -66,4 +66,4 @@ const NotificationPanel = () => {
     )
 }
 
-export default memo(NotificationPanel);
+export default memo(Sidebar);

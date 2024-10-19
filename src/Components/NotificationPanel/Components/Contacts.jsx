@@ -5,7 +5,7 @@ import MessageTime from '../Common/MessageTime';
 
 const Contacts = () => {
     return (
-        <div className='text-start'>
+        <div className='text-start h-[400px]'>
             <Header label='Contacts' />
             {
                 contacts?.map((d, i) => (

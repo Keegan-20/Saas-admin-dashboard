@@ -3,7 +3,7 @@ import Items from './Items';
 
 const Menu = ({ pageMenus }) => {
     return (
-        <div>
+        <div className='h-[400px] py-3'>
             {
                 pageMenus?.children?.map((data, i) => (<Items data={data} key={i} />))
             }
