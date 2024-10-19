@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Common/Header';
-import { contacts } from '../../../Database/db';
+import { contacts } from '../../../mockData/mockdata';
 import MessageTime from '../Common/MessageTime';
 
 const Contacts = () => {

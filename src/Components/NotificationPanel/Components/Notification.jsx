@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Common/Header'
-import { notification } from '../../../Database/db'
+import { notification } from '../../../mockData/mockdata'
 import MessageTime from '../Common/MessageTime'
 
 const Notification = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Common/Header'
-import { activities } from '../../../Database/db';
+import { activities } from '../../../mockData/mockdata';
 import MessageTime from '../Common/MessageTime';
 
 const Activities = () => {

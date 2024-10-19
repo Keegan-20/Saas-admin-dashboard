@@ -1,13 +1,12 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./allRoutes/Routes";
 import './App.css'
-import RightDrawer from "../../RightDrawer"
 
-function App() {
-
-  return (
-   <>
-   <RightDrawer/>
-   </>
-  )
-}
-
-export default App
+const App = (props) => {
+    return (
+        <Router>
+            <Routes {...props} />
+        </Router>
+    );
+};
+export default App;
