@@ -1,5 +1,5 @@
 import React from 'react'
-import { revenueByLocation } from '../../../../../../../Database/db'
+import { revenueByLocation } from '../../../../../../../mockData/mockdata';
 import { useSelector } from 'react-redux';
 import { worldMap, worldMapDark } from '../../../../../../../assets';
 

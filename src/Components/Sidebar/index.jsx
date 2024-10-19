@@ -56,8 +56,9 @@ const NotificationPanel = () => {
                         }
                     </div>
                 </div>
+                <Dashboard />
+
                 <Suspense fallback={<FallbackLoading />}>
-                    <Dashboard />
                     <MenuPage />
                 </Suspense>
             </section>

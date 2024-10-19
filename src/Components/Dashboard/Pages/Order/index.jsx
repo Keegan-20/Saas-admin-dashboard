@@ -1,6 +1,6 @@
 import React, { useState, Suspense, memo } from 'react';
-import { ArrowDownUp, ChevronLeft, ChevronRight, Plus, Search, Slack, Text } from 'lucide-react';
-import FallbackLoading from '../../../../BasicComponents/FallbackLoading';
+import { ArrowDownUp, ChevronLeft, ChevronRight, Plus, Search, Text } from 'lucide-react';
+import FallbackLoading from '../../../FallbackLoading/FallbackLoading';
 import OrderTable from './OrderTable';
 
 const Order = () => {

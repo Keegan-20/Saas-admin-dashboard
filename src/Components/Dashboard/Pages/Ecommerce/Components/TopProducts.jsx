@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import { productsTableData, productsTableHead, totalSales } from '../../../../../Database/db'
+import { productsTableData,productsTableHead, totalSales } from '../../../../../mockData/mockdata';
 import { Dot } from 'lucide-react';
 import { useSelector } from 'react-redux';
 import { donutChart, donutChartDark } from '../../../../../assets';

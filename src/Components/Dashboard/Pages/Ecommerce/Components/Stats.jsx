@@ -2,7 +2,7 @@ import React, { memo, useState } from 'react'
 import { useSelector } from 'react-redux';
 import { TrendingDown, TrendingUp } from 'lucide-react'
 import ReactApexChart from "react-apexcharts";
-import { stats } from '../../../../../Database/db'
+import { stats } from '../../../../../mockData/mockdata';
 import { BarChart, BarChartDark } from '../../../../../assets';
 
 const Stats = () => {

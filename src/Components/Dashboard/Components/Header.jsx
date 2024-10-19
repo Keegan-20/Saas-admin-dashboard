@@ -104,7 +104,6 @@ const Header = () => {
         }
     ]
 
-    console.log('syateisDrawerOpen', state.isDrawerOpen)
     const urlBarString = location?.pathname?.split("/")?.filter((d) => d);
     return (
         <>

@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import FallbackLoading from '../../../../BasicComponents/FallbackLoading';
-
+import FallbackLoading from '../../../FallbackLoading/FallbackLoading';
 const Stats = lazy(() => import('./Components/Stats'));
 const Revenue = lazy(() => import('./Components/Revenue'));
 const TopProducts = lazy(() => import('./Components/TopProducts'));
