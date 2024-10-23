@@ -8,7 +8,6 @@ A pixel-perfect SaaS dashboard built using React. The project strictly follows d
 - **Responsive Design**: Optimized for various devices including desktop, tablet, and mobile.
 - **Responsive Design**: Optimized for various devices including desktop, tablet, and mobile.
 - **Reusable Components**: Clean and modular code with a focus on reusability.
-- **Smooth Animations**: Added microinteractions and animations for a more engaging user experience using `framer-motion`.
 
 ## 🛠️ Tech Stack
 
