@@ -1,11 +1,12 @@
 import { Bug, Radio, ShieldEllipsis, UserRound } from 'lucide-react';
 import { image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11 } from '../assets';
+import {pp1,pp2,pp3,pp4,pp5} from '../assets/Icons';
 
 const pageMenus = {
     children:[
         {
             name:'User Profile',
-            icon:ShieldEllipsis,
+            icon:pp1,
             children:[
                     {
                         name:'Overview',
@@ -26,7 +27,7 @@ const pageMenus = {
         },
         {
             name:'Account',
-            icon:ShieldEllipsis,
+            icon:pp2,
             children:[
                     {
                         name:'Test1'
@@ -35,17 +36,17 @@ const pageMenus = {
         },
         {
             name:'Corporate',
-            icon:ShieldEllipsis,
+            icon:pp3,
             children:[]
         },
         {
             name:'Blog',
-            icon:ShieldEllipsis,
+            icon:pp4,
             children:[]
         },
         {
             name:'Social',
-            icon:ShieldEllipsis,
+            icon:pp5,
             children:[
                 {
                     name:'Test1'

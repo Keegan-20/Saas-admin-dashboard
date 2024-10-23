@@ -26,6 +26,7 @@ export default function Routes() {
                     <Header />
                     
                     <div className='p-4'>
+                        {/* the routes object dynamically renders the content based on the current route */}
                         {routes}
                     </div> 
                 </div>
