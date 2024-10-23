@@ -14,8 +14,7 @@ A pixel-perfect SaaS dashboard built using React. The project strictly follows d
 
 - **React**: Frontend library for building user interfaces.
 - **React Router**: For client-side routing.
-- **CSS Modules/Tailwind CSS**: For styling.
-- **Framer Motion**: For animations and microinteractions.
+- **Tailwind CSS & Material Tailwind**: For styling,animations and microinteractions.
 - **State Management**: Using Redux Toolkit for handling application state.
 
 ## Snapshots
