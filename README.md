@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Keegan-20/juspay-assignment
+    git clone https://github.com/Keegan-20/Saas-admin-dashboard
     ```
 
 2. **Navigate to the project directory:**
